@@ -1,0 +1,14 @@
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\bin\Debug\netcoreapp3.1\HängaGubbe.exe
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\bin\Debug\netcoreapp3.1\HängaGubbe.deps.json
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\bin\Debug\netcoreapp3.1\HängaGubbe.runtimeconfig.json
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\bin\Debug\netcoreapp3.1\HängaGubbe.runtimeconfig.dev.json
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\bin\Debug\netcoreapp3.1\HängaGubbe.dll
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\bin\Debug\netcoreapp3.1\HängaGubbe.pdb
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.csproj.AssemblyReference.cache
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.AssemblyInfoInputs.cache
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.AssemblyInfo.cs
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.csproj.CoreCompileInputs.cache
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.dll
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.pdb
+C:\Users\jespe\source\repos\HängaGubbe\HängaGubbe\obj\Debug\netcoreapp3.1\HängaGubbe.genruntimeconfig.cache
