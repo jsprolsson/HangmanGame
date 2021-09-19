@@ -29,33 +29,21 @@ namespace HängaGubbe
                     {
                         Console.Clear();
                         Console.WriteLine("Correct!");
-                        numberOfGuesses++;
                         break;
                     }
                     else if (userGuess != randomWordChar[j])
                     {
                         Console.Clear();
                         Console.WriteLine("Not a letter in the word.");
-                        numberOfGuesses++;
                     }
 
                 }
+                numberOfGuesses++;
             }
 
            
 
         }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
