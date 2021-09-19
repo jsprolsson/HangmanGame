@@ -22,19 +22,21 @@ namespace HängaGubbe
                 Console.Write("Write your guess: ");
                 char userGuess = Convert.ToChar(Console.ReadLine().ToUpper());
 
-
                 for (int j = 0; j < randomWordChar.Length; j++)
                 {
 
-
                     if (userGuess == randomWordChar[j])
                     {
+                        Console.Clear();
                         Console.WriteLine("Correct!");
                         numberOfGuesses++;
+                        break;
                     }
                     else if (userGuess != randomWordChar[j])
                     {
+                        Console.Clear();
                         Console.WriteLine("Not a letter in the word.");
+                        numberOfGuesses++;
                     }
 
                 }
