@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace HängaGubbe
 {
@@ -7,12 +8,27 @@ namespace HängaGubbe
     {
         static void Main(string[] args)
         {
+            bool userKnows = false;
             int maxGuesses = 15;
             int numberOfGuesses = 0;
             string randomWord = GetRandomWord();            //Plockar in slumpmässigt ord i variabel.
             char[] randomWordChar = randomWord.ToCharArray();           //Splittar upp sträng-variabeln i chars istället.
+            int lengthOfRandomWord = randomWordChar.Length;
 
+            //StringBuilder invisibleLetters = new StringBuilder();
+            //invisibleLetters.Append('_', lengthOfRandomWord);               //Skapar "osynliga" bokstäver baserat på hur många chars som finns i slumpordet.
+            //Console.WriteLine($"Letters: {invisibleLetters}");
             Console.WriteLine(randomWord);
+
+            //Console.WriteLine("Do you know what the word is?");
+            //if (Console.ReadLine().ToUpper() == "YES")
+            //{
+            //    UserKnows(randomWord);                        //Frågar anv. efter 3 gissningar om den vet ordet. I så fall, kallar på metoden. Om inte - fortsätter gissningarna.
+                
+            //}
+            //else
+            //    Console.WriteLine("Okay.");
+            
 
 
             for (int i = 0; i < maxGuesses; i++)
@@ -46,7 +62,22 @@ namespace HängaGubbe
         }
 
 
+        public static void UserKnows(string randomWord)
+        {
+            Console.WriteLine("What is the correct word?");
+            string userWord = Console.ReadLine().ToUpper();
 
+            if (userWord == randomWord)
+            {
+                Console.WriteLine("Good job!");
+            }
+            else if(userWord != randomWord)
+            {
+                Console.WriteLine("Sorry, that is not the word.");
+            }
+            else
+                Console.WriteLine("Invalid input.");
+        }
 
 
 
